@@ -1,0 +1,10 @@
+_site/
+_site/*
+.jekyll-cache/
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+
+# # Ignore all files starting with an underscore.
+# **/_*
+# !__init__.py

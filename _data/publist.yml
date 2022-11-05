@@ -1,0 +1,29 @@
+- title: Near-surface dynamics of a gas bubble collapsing above a crevice
+  authors:
+    T. Trummler, S. H. Bryngelson, K. Schmidmayer, S. J. Schmidt, N. A. Adams, T. Colonius
+  url: bryngelson-JFM-19
+  image: crevice20.png
+  display: <b>accepted</b>, Journal of Fluid Mechanics 1907
+  year: 2020
+  arxiv: 1912.07022
+  abstract: "The impact of a collapsing gas bubble above rigid, notched walls is considered. Such surface crevices and imperfections often function as bubble nucleation sites, and thus have a direct relation to cavitation-induced erosion and damage structures. A generic configuration is investigated numerically using a second-order-accurate compressible multi-component flow solver in a two-dimensional axisymmetric coordinate system. Results show that the crevice geometry has a significant effect on the collapse dynamics, jet formation, subsequent wave dynamics, and interactions. The wall-pressure distribution associated with erosion potential is a direct consequence of development and intensity of these flow phenomena."
+
+- title: "MFC: An open-source high-order multi-component, multi-phase, and multi-scale compressible flow solver"
+  authors:
+    S. H. Bryngelson, K. Schmidmayer, V. Coralic, J. C. Meng, K. Maeda, T. Colonius
+  url: bryngelson-CPC-19
+  image: droplet_mfc.png
+  display: Computer Physics Communications 4655, 107396
+  year: 2020
+  doi: https://doi.org/10.1016/j.cpc.2020.107396
+  abstract: "MFC is an open-source tool for solving multi-component, multi-phase, and bubbly compressible flows. It is capable of efficiently solving a wide range of flows, including droplet atomization, shock-bubble interaction, and gas bubble cavitation. We present the 5- and 6-equation thermodynamically-consistent diffuse-interface models we use to handle such flows, which are coupled to high-order interface-capturing methods, HLL-type Riemann solvers, and TVD time-integration schemes that are capable of simulating unsteady flows with strong shocks. The numerical methods are implemented in a flexible, modular framework that is amenable to future development. The methods we employ are validated via comparisons to experimental results for shock-bubble, shock-droplet, and shock-water-cylinder interaction problems and verified to be free of spurious oscillations for material-interface advection and gas-liquid Riemann problems. For smooth solutions, such as the advection of an isentropic vortex, the methods are verified to be high-order accurate. Illustrative examples involving shock-bubble-vessel-wall and acoustic-bubble-net interactions are used to demonstrate the full capabilities of MFC."
+
+- title: A Gaussian moment method and its augmentation via LSTM recurrent neural networks for the statistics of cavitating bubble populations
+  authors:
+    S. H. Bryngelson, A. Charalampopoulos, T. P. Sapsis, T. Colonius
+  url: bryngelson-IJMF-20
+  image: icmf20.png
+  display: International Journal of Multiphase Flow 127, 103262
+  year: 2020
+  doi: 10.1016/j.ijmultiphaseflow.2020.103262
+  abstract: "Phase-averaged dilute bubbly flow models require high-order statistical moments of the bubble population. The method of classes, which directly evolve bins of bubbles in the probability space, are accurate but computationally expensive. Moment-based methods based upon a Gaussian closure present an opportunity to accelerate this approach, particularly when the bubble size distributions are broad (polydisperse). For linear bubble dynamics a Gaussian closure is exact, but for bubbles undergoing large and nonlinear oscillations, it results in a large error from misrepresented higher-order moments. Long short-term memory recurrent neural networks, trained on Monte Carlo truth data, are proposed to improve these model predictions. The networks are used to correct the low-order moment evolution equations and improve prediction of higher-order moments based upon the low-order ones. Results show that the networks can reduce model errors to less than 1% of their unaugmented values."
