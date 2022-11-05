@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<!--
+
+-->
+<html>
+
+<head>
+    <title>project-boozybrain</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <noscript>
+		<link rel="stylesheet" href="/assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+        <!-- Header -->
+        <header id="header">
+            <h1>
+                <a href="/index.html" class="logo">
+                    <img src="/images/LogoD.png" alt="" />
+                </a>
+            </h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special">
+                        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                        <div id="menu">
+                            <ul>
+                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="/project/project.html">Project</a></li>
+                                <li><a href="/visualart.html">Visual Art</a></li>
+                                <!-- <li><a href="/blogs/blog.html">Blog</a></li> -->
+                                <li><a href="/About.html">About</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <article id="main">
+            <section class="wrapper style5 pro">
+                <span class="image main"><img src="/images/Project/thumbnail-boozy brian.jpg" alt="" /></span>
+                <div class="inner">
+                    <div class="box alt">
+                        <div class="row gtr-50 gtr-uniform">
+                            <div class="col-6">
+                                <h3>The Boozy Brain: <br> How Artificial Intelligence Can Be your Cocktail Maker?
+                                </h3>
+                            </div>
+                            <div class="col-6">
+                                <h5>
+                                    Design Exploration 2018 | 4 months<br> Industrial Design, University of Technology Eindhoven, NL<br> Skills: design with algorithm, A.I., prototype, python<br> Team: Silvia Cazacu, Pranav Muppirishetty, Siebren de Vos
+                                </h5>
+                            </div>
+                            <p>Inspired by Phillipe Remy, Yoni Levine's projects, we aim at exploring the implementation of AI technology into determining which cocktail recipe tends to be welcomed by users. We used Naive Bayes Theorem [1] to discriminate
+                                cocktails by considering all the ingredients together as a combination. In order to have a functional prototype, we focused on six ingredients and built up an interface and a physical prototype. In summary, we designed
+                                the Boozy Brain that could contribute to the beverage industry and assist bartenders.
+                            </p>
+                        </div>
+                    </div>
+                    <hr/>
+                </div>
+                <div class="inner">
+                    <h4>Algorithm</h4>
+                    <p>
+                        <strong>Supervised learning algorithm based on the Naïve Bayes theorem</strong> <br> The data set for training and testing is obtained from a popular cocktail recipe website [2] using the Beautiful soup library in python [4]. The
+                        extracted data including names of the cocktails, ingredients, rating values and rating counts is stored into the file “recipes”. To classify the data, Naïve Bayes classifier was used, which describes the probability of an event
+                        based on prior knowledge of conditions linked to that event's occurrence [1]. <br>
+                        <blockquote>
+                            Mathematically, it is stated as follows: P(A | B) = ( P(B | A) * P(A) ) / P(B), where A and B are events and P(B) ≠ 0. <br> P(A | B) is a conditional probability: the likelihood of event A occurring given that B is true. <br>                            P(B | A) is also a conditional probability: the likelihood of event B occurring given that A is true. <br> P(A) and P(B) are the probabilities of observing A and B independently of each other; this is known as the marginal
+                            probability.
+                        </blockquote>
+                    </p>
+                    <p>
+                        <strong>Sentiment Analysis approach</strong><br/> The positive and negative features are extracted from the two classes [3]. Take the positive class as the example: each recipe in the positive classed has been broken into words
+                        to form the positive features [3]. The mean of the rating value can be calculated. Depending on whether the rating of the recipe was higher or lower than the mean, the recipe was classified as positive or negative respectively.
+                        Each class was stored in one file. 3/4 of the features were used to train the Naive Bayes Classifier and 1⁄4 of them were used to test the classifier and calculate the accuracy of the algorithm.
+                    </p>
+                    <br/>
+                    <h4>Implementation</h4>
+                    <p>
+                        After training and testing the algorithm, six chosen ingredients were input into the algorithm. Using the itertool library, the possible combinations can be generated. For the initial implementation, we limited the machine’s capability to mix 3 ingredients.
+                        After the user selecting the desired cocktail combination, the trained algorithm can determine the likelihood of this combination to be positively appreciated by people.
+                    </p>
+                    <span class="image main"><img src="/images/Project/3Boozybrain/graphic.jpg" alt="" /></span>
+                    <h4>Check the Video</h4>
+                    <span>
+                        <iframe width=100% height=700em src="https://www.youtube.com/embed/ucPVKxOZiSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </span>
+                </div>
+                <div class="inner">
+                    <p><br/><sup>[1] Friedman, N., Geiger, D., & Goldszmidt, M. (1997). Bayesian network classifiers. Machine learning, 29(2- 3), 131-163.<br>
+                        [2] 1001 Cocktails. Retrieved December 08, 2018 from 1001cocktails.com<br>
+                        [3] Al-Amrani, Y., Lazaar, M., & Elkadiri, K. E. (2017, March). Sentiment Analysis using supervised classification algorithms. In Proceedings of the 2nd International Conference on Big Data, Cloud and Applications (p. 61). ACM.<br>
+                        [4] Beautiful Soup Library. Retrieved December 08, 2018 from https://www.crummy.com/software/BeautifulSoup/
+                    </sup></p>
+                </div>
+            </section>
+            <section class="wrapper style3 alt">
+                <div class="inner">
+                    <h4>Business Model for Boozy Brain</h4>
+                    <p>Design Innovation Method 2020 | 2 week <br> Industrial Design, University of Technology Eindhoven, NL<br> Skills: business model canvas, hypothesis-driven process, market research, design innovation</p>
+                    <p>The Business Model was developed as the individual assignment in the course (DAB200) Design Innovation Method. During the course, I was required to select one of my own project, and apply the business innovation methods I have learnt
+                        from the lecture and develop a business model canvas.</p>
+                    <p>The assignment mainly focused on the right part of the Business Model Canvas. I have used Get-Keep-Grow strategy to grow the customer segments and propose customer relationships and channels. Then, I analyzed alternative revenue streams.
+                        At the end, I proposed a business model for the next five years. Follwing the lean startup methodology, I listed three trials to validate the product-market fit. </p>
+                    <span class="image main"><img src="/images/Project/3Boozybrain/screenshot.png" alt="" /></span>
+
+                </div>
+            </section>
+        </article>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="copyright">
+                <li>董皓宇 2022 &copy; All rights reserved. </li>
+                <!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
+            </ul>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.scrollex.min.js"></script>
+    <script src="/assets/js/jquery.scrolly.min.js"></script>
+    <script src="/assets/js/browser.min.js"></script>
+    <script src="/assets/js/breakpoints.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
