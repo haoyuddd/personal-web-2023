@@ -1,6 +1,5 @@
-Haoyu Dong
-Personal Website 2022
-updated 2022.6
+# Haoyu Dong Personal Website 2022
+since 2022.1 updated 2022.6
 
 From html5up.net
 
@@ -8,7 +7,7 @@ From html5up.net
 	Combined with 
 	Template Future Imperfect
 
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Free for personal and commercial use under the Creative Commons Attribution 3.0 license (html5up.net/license)
 
 Credits:
 
