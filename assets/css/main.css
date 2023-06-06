@@ -2857,6 +2857,11 @@ button.disabled,
     text-align: center;
 }
 
+#wrapperproject h4 {
+    color: white;
+    text-align: center;
+}
+
 @media screen and (max-width: 736px) {
     #wrapperproject>*>.inner {
         padding: 2.5em 1em;
