@@ -350,6 +350,16 @@ h5 {
     margin: 0 0 1em 0;
 }
 
+#projectinfo h5 {
+    /*publication name*/
+    font-size: 0.9em;
+    color: var(--h5-color);
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    margin: 0 0 5em 3em;
+}
+
 h6 {
     /*publication details*/
     font-size: 0.7em;
@@ -4290,7 +4300,7 @@ body.is-menu-visible #menu .close {
     -ms-transition: background-color 0.2s ease;
     transition: background-color 0.2s ease;
     background: #ffffff;
-    height: 3em;
+    height: 3.5em;
     left: 0;
     line-height: 3em;
     position: fixed;
@@ -4719,7 +4729,7 @@ body.is-preload #banner:after {
 } */
 
 #main #proje {
-    padding: 12em 0 12em 0;
+    padding: 1em 0 12em 0;
     background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/unsplash/alvaro-reyes-qWwpHwip31M-unsplash.jpg");
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/unsplash/alvaro-reyes-qWwpHwip31M-unsplash.jpg");
     background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/unsplash/alvaro-reyes-qWwpHwip31M-unsplash.jpg");
@@ -4734,10 +4744,25 @@ body.is-preload #banner:after {
 
 #main #visuala {
     padding: 12em 0 12em 0;
+    /* <div class="image"><img src="/images/Mainpage/mp-drawing.jpg" alt="" /></div> */
     background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/starskyC.jpeg");
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/starskyC.jpeg");
     background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/starskyC.jpeg");
     background-image: linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/starskyC.jpeg");
+    background-attachment: fixed;
+    background-position: center -4em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+#main #drawingpage {
+    padding: 12em 0 12em 0;
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/Mainpage/mp-drawing.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/Mainpage/mp-drawing.jpg");
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/Mainpage/mp-drawing.jpg");
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/Mainpage/mp-drawing.jpg");
     background-attachment: fixed;
     background-position: center -4em;
     background-repeat: no-repeat;
