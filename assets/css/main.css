@@ -3049,6 +3049,11 @@ button.disabled,
     margin: 0;
 }
 
+#p2 {
+    margin: 0;
+    color: #f8d300;
+}
+
 .wrapper.style-social h2,
 .wrapper.style-social h3,
 .wrapper.style-social h4,
