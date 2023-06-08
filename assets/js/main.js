@@ -6,8 +6,8 @@
 
 $(function() {
     // $("#header").load("header.html");
-    $("#sociallink").load("../sociallink.html");
-    $("#footer").load("../footer.html");
+    $("#sociallink").load("../pre-set/sociallink.html");
+    $("#footer").load("../pre-set/footer.html");
     $("#publication").load("../pre-set/publication.html");
 
 });
