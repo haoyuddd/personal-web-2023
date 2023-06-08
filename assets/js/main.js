@@ -8,6 +8,8 @@ $(function() {
     // $("#header").load("header.html");
     $("#sociallink").load("../sociallink.html");
     $("#footer").load("../footer.html");
+    $("#publication").load("../pre-set/publication.html");
+
 });
 
 (function($) {
