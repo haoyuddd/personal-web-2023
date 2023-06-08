@@ -1264,7 +1264,13 @@ pre code {
     #mobiledisplay>.col-4 {
         width: 100%;
     }
+    #mobiledisplay>.col-4-small {
+        width: 50%;
+    }
     #mobiledisplay>.col-5 {
+        width: 100%;
+    }
+    #mobiledisplay>.col-6>.image.fitIII {
         width: 100%;
     }
     #mobiledisplay>.col-7 {
