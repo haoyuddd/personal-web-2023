@@ -520,6 +520,10 @@ pre code {
     width: 33.33333%;
 }
 
+.row>.col-4-s {
+    width: 33.33333%;
+}
+
 .row>.off-4 {
     margin-left: 33.33333%;
 }
@@ -1271,7 +1275,7 @@ pre code {
     #mobiledisplay>.col-4 {
         width: 100%;
     }
-    #mobiledisplay>.col-4-small {
+    #mobiledisplay>.col-4-s {
         width: 50%;
     }
     #mobiledisplay>.col-5 {
