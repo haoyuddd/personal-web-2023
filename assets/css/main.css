@@ -5105,10 +5105,12 @@ body.is-mobile.landing #footer {
     border: none;
     margin: 5% auto;
     /*5% top and centered*/
-    z-index: 3;
+    z-index: 1;
     /* Sit on top */
     left: 0;
     top: 0;
+    width: 100%;
+    /* Full width */
     height: 100%;
     /* Full height */
     background-color: rgb(0, 0, 0);
@@ -5123,15 +5125,75 @@ body.is-mobile.landing #footer {
 .modal-content {
     text-align: center;
     background-color: #fefefe;
-    margin: auto;
-    /* centered */
+    margin: 15% auto;
+    /* 15% from the top and centered */
     padding: 40px;
-    width: calc(80%);
+    border: 1px solid #888;
+    width: calc(60%);
     /* Could be more or less, depending on screen size */
     justify-content: center;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+/* Modal Content */
+
+
+/* .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+} */
+
+
+/* Modal Header */
+
+
+/* .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+} */
+
+
+/* Modal Body */
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+
+/* Modal Footer */
+
+
+/* .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+} */
+
+
+/* Add Animation */
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
 }
 
 .modal-content p {

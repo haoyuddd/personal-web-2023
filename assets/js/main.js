@@ -169,9 +169,11 @@ $(function() {
     }
     //The popup doc for wechat QR-code
     // Get the modal
-    var modal = document.getElementById("myModal");
+    var modal = document.getElementById("comingsoon");
+    var modal = document.getElementById("wechat");
+
     // Get the button that opens the modal
-    var btn = document.getElementById("wechat");
+    var btn = document.getElementById("myBtn");
     // Get the <span> element that closes the modal
     var close = document.getElementsByClassName("close")[0];
 
@@ -192,5 +194,10 @@ $(function() {
         }
     }
 
-
+    //The popup window with link
+    $(document).ready(function() {
+        $(document).on("click", "clickable", function() {
+            showModalPopUp();
+        });
+    });
 })(jQuery);
