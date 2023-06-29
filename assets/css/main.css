@@ -403,9 +403,10 @@ hr.major {
 }
 
 blockquote {
-    /* font-size: 0.9em; */
+    font-size: 1.2em;
     border-left: solid 4px #fff;
     font-style: italic;
+    font-family: Cochin, Georgia, Times, serif;
     margin: 0 0 1em 0;
     padding: 0.5em 0 0.5em 2em;
 }
