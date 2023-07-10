@@ -350,7 +350,7 @@ h5 {
     margin: 0 0 1em 0;
 }
 
-#projectinfo h5 {
+#projectinfo h3 h5 {
     /*publication name*/
     font-size: 0.9em;
     color: var(--h5-color);
@@ -403,9 +403,10 @@ hr.major {
 }
 
 blockquote {
-    /* font-size: 0.9em; */
+    font-size: 1.2em;
     border-left: solid 4px #fff;
     font-style: italic;
+    font-family: Cochin, Georgia, Times, serif;
     margin: 0 0 1em 0;
     padding: 0.5em 0 0.5em 2em;
 }
@@ -3755,6 +3756,13 @@ strong>a:hover {
     color: #252525;
 }
 
+p#credit-p {
+    color: grey;
+    font-size: 0.5em;
+    line-height: initial;
+    margin: 1.5em 0 0 0;
+}
+
 .wrapper.style5 h5 {
     font-weight: normal;
 }
@@ -4979,7 +4987,7 @@ body.is-mobile #main>header {
 /* Footer */
 
 #footer {
-    padding: 3em 0 2em 0;
+    padding: 2em 0 1em 0;
     background-color: #ffffff;
     text-align: center;
 }
