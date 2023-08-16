@@ -6533,6 +6533,17 @@
         width: 0.6em;
     }
     
+    .timeline__triangle {
+        /* Rounded border */
+        border-top: 7px solid transparent;
+        border-left: 13px solid #ff4f19;
+        border-bottom: 7px solid transparent;
+        /* Size */
+        height: 0em;
+        width: 0em;
+        z-index: 1;
+    }
+    
     .timeline__time {
         /* Take available width */
         padding-left: 1em;
