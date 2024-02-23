@@ -2530,6 +2530,14 @@
         color: #ffffff !important;
     }
     
+    .button.transparent {
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: none !important;
+        color: #000000 !important;
+        text-align: left;
+        padding: 0;
+    }
+    
     .button.style1 {
         background-color: #9faeb2;
         box-shadow: none !important;
