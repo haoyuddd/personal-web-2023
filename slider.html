@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<!--
+try out slider 
+use this https://splidejs.com/v3/tutorials/thumbnail-slider/
+-->
+
+
+<html>
+
+
+<head>
+    <title>slider</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <noscript>
+		<link rel="stylesheet" href="/assets/css/noscript.css" />
+	</noscript>
+
+</head>
+
+<body class="is-preload">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+        <!-- Header -->
+        <header id="header">
+            <h1>
+                <a href="/index.html" class="logo">
+                    <img src="/images/LogoD.png" alt="" />
+                </a>
+            </h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special">
+                        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                        <div id="menu">
+                            <ul>
+                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="/project/project.html">Project</a></li>
+                                <li><a href="/about.html">About</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <article id="main">
+            <section class="wrapper style5 alt">
+                <div class="inner">
+                    <h3>try a slider here</h3>
+
+
+                    <div id="main-slider" class="splide">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="images/template-img.jpg" />
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/thumbnail-art.jpg" />
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/profilepic.jpg" />
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="images/Calligraphy/IMG_1803.jpg" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <ul id="thumbnails" class="thumbnails">
+                        <li class="thumbnail">
+                            <img src="images/template-img.jpg" />
+                        </li>
+                        <li class="thumbnail">
+                            <img src="images/thumbnail-art.jpg" />
+                        </li>
+                        <li class="thumbnail">
+                            <img src="images/profilepic.jpg" />
+                        </li>
+                        <li class="thumbnail">
+                            <img src="images/Calligraphy/IMG_1803.jpg" />
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+
+        <!-- Footer -->
+        <div id="footer"></div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="/assets/js/jquery.min.js "></script>
+    <script src="/assets/js/jquery.scrollex.min.js "></script>
+    <script src="/assets/js/jquery.scrolly.min.js "></script>
+    <script src="/assets/js/browser.min.js "></script>
+    <script src="/assets/js/breakpoints.min.js "></script>
+    <script src="/assets/js/util.js "></script>
+    <script src="/assets/js/main.js "></script>
+    <script src="/assets/js/splide.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+    </script>
+
+    <script>
+        new Splide('.splide').mount();
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var splide = new Splide('.splide');
+            splide.mount();
+        });
+    </script>
+</body>
+
+</html>
