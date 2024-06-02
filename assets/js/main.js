@@ -178,9 +178,9 @@ $(function() {
     var close = document.getElementsByClassName("close")[0];
 
     // When the user clicks on the button, open the modal
-    btn.onclick = function() {
-        modal.style.display = "block";
-    }
+    // btn.onclick = function() {
+    //     modal.style.display = "block";
+    // }
 
     // When the user clicks on <span> (x), close the modal
     close.onclick = function() {
@@ -203,40 +203,27 @@ $(function() {
 })(jQuery);
 
 
+window.addEventListener('load', function() {
+    var preloader = document.getElementById('preloader');
+    var mainContent = document.getElementById('main-content');
 
-// Gallery
-// import Splide from '@splidejs/splide';
+    // Hide preloader
+    preloader.style.display = 'none';
 
-
-var splide = new Splide('#main-slider', {
-    pagination: false,
+    // Show main content
+    mainContent.style.display = 'block';
 });
-splide.mount();
 
-var thumbnails = document.getElementsByClassName('thumbnail');
-var current;
+// Additional check if the window load event didn't fire
+document.addEventListener('DOMContentLoaded', function() {
+    if (document.readyState === 'complete') {
+        var preloader = document.getElementById('preloader');
+        var mainContent = document.getElementById('main-content');
 
-for (var i = 0; i < thumbnails.length; i++) {
-    initThumbnail(thumbnails[i], i);
-}
+        // Hide preloader
+        preloader.style.display = 'none';
 
-function initThumbnail(thumbnail, index) {
-    thumbnail.addEventListener('click', function() {
-        splide.go(index);
-    });
-}
-
-splide.on('mounted move', function() {
-    var thumbnail = thumbnails[splide.index];
-
-    if (thumbnail) {
-        if (current) {
-            current.classList.remove('is-active');
-        }
-
-        thumbnail.classList.add('is-active');
-        current = thumbnail;
+        // Show main content
+        mainContent.style.display = 'block';
     }
 });
-
-// new Splide('.splide').mount();
