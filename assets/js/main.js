@@ -227,3 +227,5 @@ document.addEventListener('DOMContentLoaded', function() {
         mainContent.style.display = 'block';
     }
 });
+
+document.cookie = "name=value; SameSite=None; Secure";

@@ -6939,7 +6939,7 @@
         width: 100%;
         height: 100%;
         z-index: 9999;
-        background-color: #fff;
+        background-color: #074960;
         /* Change the background color as needed */
         display: flex;
         justify-content: center;
@@ -6949,7 +6949,7 @@
     .spinner {
         border: 8px solid #f3f3f3;
         /* Light grey */
-        border-top: 8px solid #3498db;
+        border-top: 8px solid #267a99;
         /* Blue */
         border-radius: 50%;
         width: 50px;
